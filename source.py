@@ -8,7 +8,9 @@ from metropolis_hastings import *
 #  interaction, J<0 encodes an antiferromagnetic interaction between lattice sites, and J=0 implies that the spins on each site are 
 #  non-interacting.
 
-
+lattice1 = Lattice(100, 0)
+times = [1000, 10000]
+evolve_and_plot(lattice1, times, 100, 100)
 
 
 
